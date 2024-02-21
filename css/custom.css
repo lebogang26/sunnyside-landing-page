@@ -1,0 +1,40 @@
+.header {
+  background: url("/images/desktop/image-header.jpg") center center no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+  position: relative;
+}
+
+img {
+  width: 100%;
+}
+
+.btn {
+    background: white;
+    font-size: 16px;
+    margin: 4px 2px;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+.arrow-down {
+  height: 100px;
+  width: 15px;
+  position: absolute;
+  align-items: center;
+  /* left: 500px; */
+  right: 50%;
+  top: 250px;
+  bottom: 50px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
